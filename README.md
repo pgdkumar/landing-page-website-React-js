@@ -35,5 +35,5 @@ Step 4: Explore the Project Structure
           src/index.js: Entry point of the React application.
 
 
-Step 1: Install React Router DOM
+Step 5: Install React Router DOM
   => Install the Package: Run the following command to install react-router-dom and its peer dependencies:
