@@ -15,6 +15,10 @@ import img6 from './../Images/img6.png';
 import img7 from './../Images/img7.png';
 import img8 from './../Images/img8.png';
 import img9 from './../Images/img9.png';
+import Arrow from './../Images/Arrow.png';
+import customSoftware from './../Images/custom-software-1.png';
+
+
 
 function Home() {
     return (
@@ -384,12 +388,12 @@ function Home() {
                             <button className="arrow-button">
                                 <span>Go to Google reviews</span>
                                 <div>
-                                    <img src="assets/images/Arrow.png" alt="Arrow" className="arrow-img" />
+                                    <img src={Arrow} alt="Arrow" className="arrow-img" />
                                 </div>
                             </button>
                         </div>
                         <div className="image">
-                            <img src="assets/images/custom-software-1.png" alt="" className="w-450px" />
+                            <img src={customSoftware} alt="" className="w-450px" />
                         </div>
                     </div>
                 </div>
