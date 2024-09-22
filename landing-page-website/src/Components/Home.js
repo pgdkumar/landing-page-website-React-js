@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import exampleImage from './../Images/logo.jpg';
 import studying from './../Images/studying-online.png';
 import exceptional from './../Images/exceptional-tutors-who-care.png';
@@ -94,6 +94,7 @@ function Home() {
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">Contact</a>
                                     </li>
+                                    
                                 </ul>
 
                             </div>
