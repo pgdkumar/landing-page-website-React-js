@@ -94,7 +94,7 @@ function Home() {
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">Contact</a>
                                     </li>
-                                    
+
                                 </ul>
 
                             </div>
@@ -304,64 +304,64 @@ function Home() {
                             <div className="grid-item">
                                 <img src={Michael} alt="Project 1" />
                                 <div className="passport-img-content">
-                                    <p>Taylor Pomfret</p>
-                                    <p>Head of Physics and ma</p>
+                                    <h4>Name  : Taylor Pomfret </h4>
+                                    <h4>Subtitle  : Head of Physics and Maths</h4>
                                 </div>
                             </div>
                             <div className="grid-item">
                                 <img src={img2} alt="Project 1" />
                                 <div className="passport-img-content">
-                                    <p>Nazrin Ali</p>
-                                    <p>Head of Biology</p>
+                                    <h4>Name  : Nazrin Ali </h4>
+                                    <h4>Subtitle  : Head of Biology</h4>
                                 </div>
                             </div>
                             <div className="grid-item">
                                 <img src={img3} alt="Project 1" />
                                 <div className="passport-img-content">
-                                    <p>Nuzhat Lazina Chowdhoury</p>
-                                    <p>Science Tutor & Head of KS4</p>
+                                    <h4>Name  : Nuzhat Lazina Chowdhoury  </h4>
+                                    <h4>Subtitle  : Science Tutor & Head of KS4 </h4>
                                 </div>
                             </div>
                             <div className="grid-item">
                                 <img src={img4} alt="Project 1" />
                                 <div className="passport-img-content">
-                                    <p>Shyam Patel</p>
-                                    <p>Head of Chemistry</p>
+                                    <h4>Name  : Shyam Patel </h4>
+                                    <h4>Subtitle  : Head of Chemistry </h4>
                                 </div>
                             </div>
                             <div className="grid-item">
                                 <img src={img5} alt="Project 1" />
                                 <div className="passport-img-content">
-                                    <p>Upkaar Ramlall</p>
-                                    <p>Biology and Chemistry Tutor & Teaching Head</p>
+                                    <h4>Name  : Upkaar Ramlall </h4>
+                                    <h4>Subtitle  : Biology and Chemistry Tutor & Teaching Head </h4>
                                 </div>
                             </div>
                             <div className="grid-item">
                                 <img src={img6} alt="Project 1" />
                                 <div className="passport-img-content">
-                                    <p>Saahithya Aroori</p>
-                                    <p>Physics and Maths Tutor & Head of KS3</p>
+                                    <h4>Name  : Saahithya Aroori </h4>
+                                    <h4>Subtitle  : Physics and Maths Tutor & Head of KS3 </h4>
                                 </div>
                             </div>
                             <div className="grid-item">
                                 <img src={img7} alt="Project 1" />
                                 <div className="passport-img-content">
-                                    <p>Dinesh</p>
-                                    <p>Kumar</p>
+                                    <h4>Name  : Taylor Pomfret </h4>
+                                    <h4>Subtitle  : Head of Physics and Maths</h4>
                                 </div>
                             </div>
                             <div className="grid-item">
                                 <img src={img8} alt="Project 1" />
                                 <div className="passport-img-content">
-                                    <p>Dinesh</p>
-                                    <p>Kumar</p>
+                                    <h4>Name  : Taylor Pomfret </h4>
+                                    <h4>Subtitle  : Head of Physics and Maths</h4>
                                 </div>
                             </div>
                             <div className="grid-item">
                                 <img src={img9} alt="Project" />
                                 <div className="passport-img-content">
-                                    <p>Dinesh</p>
-                                    <p>Kumar</p>
+                                    <h4>Name  : Taylor Pomfret </h4>
+                                    <h4>Subtitle  : Head of Physics and Maths</h4>
                                 </div>
                             </div>
                         </div>

@@ -396,8 +396,8 @@ header .btn-group {
   border-radius: 15px
 }
 .passport-img-content {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   font-size: 9px;
 }
 .passport-content {
