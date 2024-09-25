@@ -216,107 +216,139 @@ header .btn-group {
 
 
 /* section 2 */
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  gap: 30px;
+.card-container {
+  display: flex;  
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   padding: 20px;
-  flex-wrap: nowrap;
 }
-.flex-item {
-  background-color: #fff;
-  flex: 0 1 260px;
-  max-width: 300px;
-  min-height: 300px;
-  padding: 20px;
-  text-align: center;
+
+/* Styling card */
+.card {
+  width: 250px;
   border: 1px solid #ddd;
   border-radius: 10px;
-  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.2);
-  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
   position: relative;
+  margin: 10px;
 }
-.flex-item img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+
+/* Container for the top image */
+.flex-item-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -40px;
+}
+
+/* Image styling */
+.flex-item-1 img {
+  max-width: 80px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Content area */
+.card-content {
+  padding: 20px;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #4620b1;
+  font-weight: 700;
+  margin: 10px 0;
+  min-height: 60px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  min-height: 100px;
   margin-bottom: 20px;
 }
-.flex-item-1 {
-  content: "";
-  position: absolute;
-  top: -70px;
-  left: 50px;
-  width: 100%;
-  height: 1px;
-  border-radius: 10px 10px 0 0;
-  z-index: 1;
+
+/* Button styling */
+.meet-button,
+.Samples-button,
+.Syllabus-button,
+.demo-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 35px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 1px 14px 2px rgba(0, 0, 0, 0.1);
+  margin-top: auto;
+  /* Push buttons to the bottom */
 }
-.w-100px {
-  width: 100px;
-}
-.flex-item>* {
-  position: relative;
-  z-index: 2;
-}
-.line-height-25px {
-  line-height: 25px;
-}
+
 .meet-button {
   background: linear-gradient(105.5deg, #F88B3D 19.57%, #F88B3D 78.85%);
-  color: #fff;
-  padding: 8px 20px;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: background 0.3s ease;
   box-shadow: 0px 1px 14px 2px #F88B3D;
 }
+
 .Samples-button {
   background: linear-gradient(105.5deg, #29B9E7 19.57%, #29B9E7 78.85%);
-  color: #fff;
-  padding: 8px 20px;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: background 0.3s ease;
   box-shadow: 0px 1px 14px 2px #29B9E7;
 }
+
 .Syllabus-button {
   background: linear-gradient(105.5deg, #00CBB8 19.57%, #00CBB8 78.85%);
-  color: #fff;
-  padding: 8px 20px;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: background 0.3s ease;
   box-shadow: 0px 1px 14px 2px #00CBB8;
 }
+
 .demo-button {
   background: linear-gradient(105.5deg, #5B72EE 19.57%, #5B72EE 78.85%);
-  color: #fff;
-  padding: 8px 20px;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: background 0.3s ease;
   box-shadow: 0px 1px 14px 2px #5B72EE;
 }
-.padding-top-50px {
-  padding-top: 50px;
-}
-.Samples-button {
-  background-color: #3ac0e2;
-}
-.syllabus-button {
-  background-color: #0fdfd4;
-}
-.demo-button {
-  background-color: #6c8aec;
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+  .card-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      width: 90%;
+      /* Make cards take up most of the screen width */
+      margin-bottom: 20px;
+  }
+
+  .flex-item-1 img {
+      max-width: 60px;
+      /* Adjust image size for mobile */
+  }
+
+  .card h3 {
+      font-size: 18px;
+      /* Reduce heading font size for mobile */
+  }
+
+  .card p {
+      font-size: 14px;
+      /* Reduce paragraph font size for mobile */
+  }
+
+  .meet-button,
+  .Samples-button,
+  .Syllabus-button,
+  .demo-button {
+      padding: 8px 16px;
+      /* Smaller buttons for mobile */
+      font-size: 14px;
+      /* Smaller button text */
+  }
 }
 
 /* secion 3 */

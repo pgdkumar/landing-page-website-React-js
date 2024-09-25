@@ -160,64 +160,62 @@ function Home() {
                 </div>
 
                 {/* section 3 */}
-                <div class="flex-container">
-
-                    <div class="flex-item">
-                        <div class="flex-item-1">
-                            <img src={exceptional} alt="" class="w-100px" />
-                        </div>
-                        <div>
-                            <h3 class="text-color-blue">Exceptional Tutors <br />Who Care</h3>
-                            <p class="font-size-16px line-height-25px">All our tutors are experts in their subjects having studied at top
-                                UK universities. They are passionate about teaching and inspiring their students.</p>
-                            <div class="padding-top-50px">
-                                <a href="#" class="meet-button">meet our tutor</a>
+                
+                    <div class="card-container">
+                    
+                        <div class="card">
+                            <div class="flex-item-1">
+                                <img src={exceptional} alt="Exceptional Tutors" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Exceptional Tutors Who Care</h3>
+                                <p>All our tutors are experts in their subjects having studied at top UK universities. They are
+                                    passionate about teaching and inspiring their students.</p>
+                                <a href="#" class="meet-button">Meet Our Tutor</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="flex-item-1">
-                            <img src={rich} alt="" class="w-100px" />
-                        </div>
-                        <div>
-                            <h3 class="text-color-blue">Rich Breadth of<br /> Resources</h3>
-                            <p class="font-size-16px line-height-25px">We suggest and provide the <br /> best resources you can
-                                use on your learning journey. Access recorded classes, question banks per topic, weekly
-                                assessments, homeworks, and more</p>
-                            <div class="padding-top-50px">
+
+                        
+                        <div class="card">
+                            <div class="flex-item-1">
+                                <img src={rich} alt="Rich Breadth of Resources" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Rich Breadth of <br /> Resources</h3>
+                                <p>We suggest and provide the best resources you can use on your learning journey. Access recorded
+                                    classes, question banks, weekly assessments, homeworks, and more.</p>
                                 <a href="#" class="Samples-button">View Samples</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="flex-item-1">
-                            <img src={cover} alt="" class="w-100px" />
-                        </div>
-                        <div>
-                            <h3 class="text-color-blue">Cover All Your Core <br /> Subjects</h3>
-                            <p class="font-size-16px line-height-25px">Within a month, we cover all five core GCSE subjects:
-                                Biology, Chemistry, Physics, Maths and English. We follow the school syllabus so you are always
-                                prepared for upcoming tests and exams.</p>
-                            <div class="padding-top-50px">
-                                <a href="#" class="Syllabus-button">View syllabus</a>
+
+                    
+                        <div class="card">
+                            <div class="flex-item-1">
+                                <img src={cover} alt="Core Subjects" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Cover All Your Core Subjects</h3>
+                                <p>Within a month, we cover all five core GCSE subjects: Biology, Chemistry, Physics, Maths, and
+                                    English. We follow the school syllabus so you are always prepared for upcoming tests and exams.</p>
+                                <a href="#" class="Syllabus-button">View Syllabus</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="flex-item-1">
-                            <img src={Interactive} alt="" class="w-100px" />
-                        </div>
-                        <div>
-                            <h3 class="text-color-blue">Interactive Sessions and Platform</h3>
-                            <p class="font-size-16px line-height-25px">Our sessions are online in small groups, which enables
-                                you to ask questions, discuss concepts and learn from others. Our online platform allows you to
-                                track your progress in real time when completing assessments and homework.</p>
-                            <div class="padding-top-50px">
+
+                        
+                        <div class="card">
+                            <div class="flex-item-1">
+                                <img src={Interactive} alt="Interactive Sessions" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Interactive Sessions and Platform</h3>
+                                <p>Our sessions are online in small groups, enabling you to ask questions, discuss concepts, and learn
+                                    from others. Our platform lets you track progress in real time when completing assessments and
+                                    homework.</p>
                                 <a href="#" class="demo-button">View Demo</a>
                             </div>
                         </div>
                     </div>
-                </div>
+                
 
                 {/* section 4 */}
                 <div class="GGT-title">
