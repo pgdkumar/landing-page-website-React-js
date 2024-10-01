@@ -5,7 +5,7 @@ import exceptional from './../Images/text-boxes/exceptional-tutors-who-care.png'
 import rich from './../Images/text-boxes/rich-breadth-of-resources.png';
 import cover from './../Images/text-boxes/cover-all-your-core-subjects.png';
 import Interactive from './../Images/text-boxes/Interactive-sessions-and-platform.png';
-import custom from './../Images/custom-software-1.png';
+import assessments_quizzes_tests from './../Images/assessments_quizzes_tests.jpeg';
 import Michael from './../Images/Michael.png';
 import img2 from './../Images/img2.png';
 import img3 from './../Images/img3.png';
@@ -216,6 +216,20 @@ function Home() {
                                 sessions and<br />cutting-edge online platform make learning engaging and personalized.
                             </p>
                         </div>
+                    </div>
+                </section>
+                {/* Assessments, Quizzes, Tests */}
+                <section class="software-section">
+                    <div class="software-content">
+                        <h2 class="software-title">Assessments, <span class="highlight">Quizzes, Tests</span></h2>
+                        <ul class="software-list">
+                            Easily launch live assessments, quizzes, and tests. Results are automatically entered on your
+                            profile, which you can use to track your progress. Reach out to tutors for guidance on your results,
+                            and win achievement awards for different topics.
+                        </ul>
+                    </div>
+                    <div class="software-image">
+                        <img src={assessments_quizzes_tests} alt="Classroom Image" />
                     </div>
                 </section>
 
