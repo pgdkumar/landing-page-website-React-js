@@ -1,10 +1,10 @@
 import React from 'react';
 // import LogoImage from './../images/logo.jpg';
 import studying from './../Images/image-1.jpeg';
-import exceptional from './../Images/exceptional-tutors-who-care.png';
-import rich from './../Images/rich-breadth-of-resources.png';
-import cover from './../Images/cover-all-your-core-subjects.png';
-import Interactive from './../Images/Interactive-sessions-and-platform.png';
+import exceptional from './../Images/text-boxes/exceptional-tutors-who-care.png';
+import rich from './../Images/text-boxes/rich-breadth-of-resources.png';
+import cover from './../Images/text-boxes/cover-all-your-core-subjects.png';
+import Interactive from './../Images/text-boxes/Interactive-sessions-and-platform.png';
 import custom from './../Images/custom-software-1.png';
 import Michael from './../Images/Michael.png';
 import img2 from './../Images/img2.png';
@@ -153,6 +153,46 @@ function Home() {
                                 world around them.</p>
                         </div>
                         <div class="quote-1 right-quote">”</div>
+                    </div>
+                </section>
+                {/* Exceptional Tutors */}
+                <section>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="icon">
+                                <img src={exceptional} />
+                            </div>
+                            <h3>Exceptional Tutors<br />Who Care</h3>
+                            <p>All our tutors are experts in their subjects having studied at top UK universities. They are
+                                passionate about teaching and inspiring their students.</p>
+                            <a href="#" class="meet-button">Meet Our Tutor</a>
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <img src={rich} /></div>
+                            <h3>Rich Breadth of<br />Resources</h3>
+                            <p>We suggest and provide the best resources you can use on your learning journey. Access recorded
+                                classes, question banks per topic, weekly assessments, homeworks, and more </p>
+                            <a href="#" class="Samples-button">View Samples</a>
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <img src={cover} /></div>
+                            <h3>Cover All Your Core<br />Subjects</h3>
+                            <p>Within a month, we cover all five core GCSE subjects: Biology, Chemistry, Physics, Maths and
+                                English. We follow the school syllabus so you are always prepared for upcoming tests and exams.
+                            </p>
+                            <a href="#" class="Syllabus-button">View Syllabus</a>
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <img src={Interactive} /></div>
+                            <h3>Interactive & Comfortable</h3>
+                            <p>Our sessions are online in small groups, which enables you to ask questions, discuss concepts and
+                                learn from others. Our online platform allows you to track your progress in real time when
+                                completing assessments and homework.</p>
+                            <a href="#" class="demo-button">View Demo</a>
+                        </div>
                     </div>
                 </section>
 
