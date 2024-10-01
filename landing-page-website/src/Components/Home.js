@@ -6,16 +6,15 @@ import rich from './../Images/text-boxes/rich-breadth-of-resources.png';
 import cover from './../Images/text-boxes/cover-all-your-core-subjects.png';
 import Interactive from './../Images/text-boxes/Interactive-sessions-and-platform.png';
 import assessments_quizzes_tests from './../Images/assessments_quizzes_tests.jpeg';
-import Michael from './../Images/Michael.png';
-import img2 from './../Images/img2.png';
-import img3 from './../Images/img3.png';
-import img4 from './../Images/img4.png';
-import img5 from './../Images/img5.png';
-import img6 from './../Images/img6.png';
-import img7 from './../Images/img7.png';
-import img8 from './../Images/img8.png';
-import img9 from './../Images/img9.png';
-import Arrow from './../Images/Arrow.png';
+import Michael from './../Images/our-team/Michael.png';
+import Nazrin_Ali from './../Images/our-team/Nazrin_Ali.png';
+import Nuzhat_Lazina from './../Images/our-team/Nuzhat_Lazina.png';
+import Shyam_Patel from './../Images/our-team/Shyam_Patel.png';
+import Upkaar_Ramlall from './../Images/our-team/Upkaar_Ramlall.png';
+import Saahithya_Aroori from './../Images/our-team/Saahithya_Aroori.png';
+import img7 from './../Images/our-team/img7.png';
+import img8 from './../Images/our-team/img8.png';
+import img9 from './../Images/our-team/img9.png';
 import customSoftware from './../Images/custom-software-1.png';
 
 
@@ -221,7 +220,7 @@ function Home() {
                 {/* Assessments, Quizzes, Tests */}
                 <section class="software-section">
                     <div class="software-content">
-                        <h2 class="software-title">Assessments, <span class="highlight">Quizzes, Tests</span></h2>
+                        <h2 class=" text-color-blue">Assessments, <span class="highlight">Quizzes, Tests</span></h2>
                         <ul class="software-list">
                             Easily launch live assessments, quizzes, and tests. Results are automatically entered on your
                             profile, which you can use to track your progress. Reach out to tutors for guidance on your results,
@@ -230,6 +229,76 @@ function Home() {
                     </div>
                     <div class="software-image">
                         <img src={assessments_quizzes_tests} alt="Classroom Image" />
+                    </div>
+                </section>
+                {/* Meet Our team */}
+                <section class="team-section">
+                    <h2 class="section-title text-color-blue">Meet Our <span class="highlight"> Team </span></h2>
+                    <p class="section-description">We are only as good as our team... and our team is excellent!</p>
+
+                    <div class="team-container">
+                        <div class="team-detail">
+                            <div class="team-photo">
+                                <img src={Michael} alt="Annnesha Tandel" />
+                            </div>
+                            <div class="team-info">
+                                <h3 class="team-name">Annesha Tandel</h3>
+                                <p class="team-subtitle">Chemistry</p>
+                                <p class="team-description">
+                                    Annesha has over 6 years of teaching experience. Once she graduates from her Chemistry
+                                    degree at Imperial College London, she looks forward to working in medicinal research and
+                                    channelling her expertise and passion for chemistry into each of our lessons.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="team-list">
+                            <div class="team-member active">
+                                <img src={Michael} alt="Annnesha Tandel" />
+                                    <h4>Name : Annesha Tandel</h4>
+                                    <p>Subtitle : Head of Physics and Maths</p>
+                            </div>
+                            <div class="team-member">
+                                <img src={Nazrin_Ali} alt="Elsa Pajs" />
+                                    <h4>Name : Nazrin Ali</h4>
+                                    <p>Subtitle : Head of Biology</p>
+                            </div>
+                            <div class="team-member">
+                                <img src={Nuzhat_Lazina} alt="Michael Spantino" />
+                                    <h4>Name : Nuzhat Lazina Chowdhoury</h4>
+                                    <p>Subtitle : Science Tutor & Head of KS4</p>
+                            </div>
+                            <div class="team-member">
+                                <img src={Shyam_Patel} alt="Annnesha Tandel" />
+                                    <h4>Name : Shyam Patel</h4>
+                                    <p>Subtitle : Head of Chemistry </p>
+                            </div>
+                            <div class="team-member">
+                                <img src={Upkaar_Ramlall} alt="Annnesha Tandel" />
+                                    <h4>Name : Upkaar Ramlall</h4>
+                                    <p>Subtitle : Biology and Chemistry Tutor & Teaching </p>
+                            </div>
+                            <div class="team-member">
+                                <img src={Saahithya_Aroori} alt="Annnesha Tandel" />
+                                    <h4>Name : Saahithya Aroori</h4>
+                                    <p>Subtitle : Physics and Maths Tutor & Head of KS3 </p>
+                            </div>
+                            <div class="team-member">
+                                <img src={img7} alt="Annnesha Tandel" />
+                                    <h4>Name : </h4>
+                                    <p>Subtitle : </p>
+                            </div>
+                            <div class="team-member">
+                                <img src={img8} alt="Annnesha Tandel" />
+                                    <h4>Name : </h4>
+                                    <p>Subtitle : </p>
+                            </div>
+                            <div class="team-member">
+                                <img src={img9} alt="Annnesha Tandel" />
+                                    <h4>Name : </h4>
+                                    <p>Subtitle : </p>
+                            </div>
+                        </div>
                     </div>
                 </section>
 

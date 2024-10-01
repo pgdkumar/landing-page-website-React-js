@@ -486,6 +486,8 @@ header .btn-group {
 
 .text-color-blue {
   color: #4620b1;
+  font-size: 35px;
+  margin-bottom: 20px;
 }
 
 .font-size-30px {
@@ -686,11 +688,7 @@ header .btn-group {
   padding: 20px;
 }
 
-.section-title {
-  font-size: 16px;
-  color: #888;
-  letter-spacing: 2px;
-}
+
 
 .main-title {
   font-size: 28px;
