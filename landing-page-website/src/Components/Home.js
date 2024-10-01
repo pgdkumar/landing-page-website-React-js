@@ -123,6 +123,7 @@ function Home() {
             </header>
 
             <main>
+                {/* banner section */}
                 <section class="banner">
                     <div class="text-content">
                         <h1 class="title">
@@ -141,6 +142,21 @@ function Home() {
                         <div class="text-box text-box4">Cover All Your Core Subjects</div>
                     </div>
                 </section>
+                {/* our mission-section */}
+                <section>
+                    <div class="mission-section">
+                        <div class="quote left-quote">“</div>
+                        <div class="content">
+                            <h2 class="title-1"><span class="highlight-1">Our</span> Mission</h2>
+                            <p>Inspire students to seek and apply <br /> knowledge by helping them identify <br /> their talents and
+                                providing opportunities <br /> beyond the classroom so they can better themselves <br /> and the
+                                world around them.</p>
+                        </div>
+                        <div class="quote-1 right-quote">”</div>
+                    </div>
+                </section>
+
+
             </main>
 
         </div>
