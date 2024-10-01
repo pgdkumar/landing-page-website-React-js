@@ -195,7 +195,29 @@ function Home() {
                         </div>
                     </div>
                 </section>
-
+                {/* why GGT */}
+                <section>
+                    <div class="GGT-title">
+                        <h3 class="text-color-green font-size-30px">
+                            <span class="text-color-blue">Why</span> GGT
+                        </h3>
+                        <div class="GGT-content">
+                            <p>
+                                At GGT, we offer more than just lessons – we provide accountability, expert guidance, and a
+                                proven track
+                                record of results Our exceptional tutors,<br /> all graduates from top UK universities, are
+                                passionate about
+                                inspiring students and helping them excel. With a rich breadth of resources,<br /> including
+                                live assessments,
+                                quizzes, and tests, you can easily track your progress. Covering all five core GCSE subjects,
+                                our program <br />
+                                aligns with the school syllabus to ensure you're always prepared. Plus, our interactive,
+                                small-group
+                                sessions and<br />cutting-edge online platform make learning engaging and personalized.
+                            </p>
+                        </div>
+                    </div>
+                </section>
 
             </main>
 
