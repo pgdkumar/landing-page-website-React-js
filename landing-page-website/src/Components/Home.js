@@ -220,7 +220,7 @@ function Home() {
                 {/* Assessments, Quizzes, Tests */}
                 <section class="software-section">
                     <div class="software-content">
-                        <h2 class=" text-color-blue">Assessments, <span class="highlight">Quizzes, Tests</span></h2>
+                        <h2 class="text-color-blue">Assessments, <span class="highlight">Quizzes, Tests</span></h2>
                         <ul class="software-list">
                             Easily launch live assessments, quizzes, and tests. Results are automatically entered on your
                             profile, which you can use to track your progress. Reach out to tutors for guidance on your results,
