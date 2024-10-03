@@ -15,7 +15,6 @@ import Saahithya_Aroori from './../Images/our-team/Saahithya_Aroori.png';
 import img7 from './../Images/our-team/img7.png';
 import img8 from './../Images/our-team/img8.png';
 import img9 from './../Images/our-team/img9.png';
-import customSoftware from './../Images/custom-software-1.png';
 
 
 
